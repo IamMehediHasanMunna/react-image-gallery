@@ -34,12 +34,14 @@ const GalleryHeader = ({
             </label>
           )}
         </h1>
-        <button
-          className="text-red-500 font-medium rounded-lg px-2 hover:bg-gray-300"
-          onClick={handleDeleteClick}
-        >
-          Delete files
-        </button>
+        {selectThumbnails.length > 0 && (
+          <button
+            className="text-red-500 font-medium rounded-lg px-2 hover:bg-gray-300"
+            onClick={handleDeleteClick}
+          >
+            Delete files
+          </button>
+        )}
       </article>
     </nav>
   );

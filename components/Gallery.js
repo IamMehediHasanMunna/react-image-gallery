@@ -70,7 +70,7 @@ const Gallery = () => {
     <main
       className={`min-h-screen w-screen flex flex-row items-center justify-center md:p-0 p-4 ${inter.className}`}
     >
-      <section className="lg:w-1/2 md:w-3/4 w-full bg-white rounded-lg shadow">
+      <section className="lg:w-8/12 md:w-8/12 w-full bg-white rounded-lg shadow">
         <div className="flex flex-col gap-y-2">
           <GalleryHeader
             selectThumbnails={selectThumbnails}
