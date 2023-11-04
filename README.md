@@ -1,6 +1,6 @@
 # Task for the `Fresher React JS Developer`
 
-> Live Link: https://react-image-gallery-azure.vercel.app
+> Live Link: [https://react-image-gallery-azure.vercel.app](https://react-image-gallery-azure.vercel.app/) 
 
 ## Objective:
 
